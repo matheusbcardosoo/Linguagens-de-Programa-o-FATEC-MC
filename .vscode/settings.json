@@ -2,7 +2,8 @@
     "files.associations": {
         "CONSUMO.C": "cpp",
         "stdio.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "limits": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
