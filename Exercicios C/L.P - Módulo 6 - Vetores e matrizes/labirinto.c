@@ -1,10 +1,10 @@
 #include <stdio.h>
 #define MAX 8
 
-int exibe (int m[MAX][MAX]){
-    for (int aux=0; aux<8; aux++)
-        for (int i=0; i<8; i++){
-            printf("%s", m[aux][i] ? "\xDB \xDB" : "  ");
+int exibe (m[MAX][MAX]){
+    for (int aux=0; aux<8; aux++){
+        for (int i=0; i<8; i++)
+            printf("%s", m[aux][i] ? "\xDB\xDB" : "  ");
         puts(""); 
     }
 }
